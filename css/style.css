@@ -1,0 +1,247 @@
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter_24pt-Regular.ttf);
+}
+:root {
+    --black:#000000;
+    --white:#ffffff;
+}
+
+/* =====================
+   common css start
+===================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol,li {
+    list-style: none;
+
+    color: #07484A;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 4px 0;
+    font-family: inter;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+span {
+    display: inline-block;
+}
+body {
+    background: linear-gradient(
+        to left,
+        #ffffff 50%,
+        #E0EFF680 50%
+    );
+    background-size: 150px 100vh;
+}
+
+/* =====================
+   common css end
+===================== */
+/* =====================
+        nav start
+===================== */
+nav {
+
+}
+.container {
+    max-width: 1620px;
+    margin: 0 auto;
+}
+.main_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 26px 0;
+}
+.main_menu .logo{}
+.main_menu .logo img{}
+
+.main_menu .menu{}
+.main_menu .menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 40px;
+
+}
+.main_menu .menu ul li{}
+.main_menu .menu ul li a{
+font-style: normal;
+color: #07484A;
+font-size: 20px;
+line-height: 132.9%;
+letter-spacing: 0.05em;
+}
+.main_menu .menu ul .active{
+font-weight: 700;
+font-size: 20px;
+line-height: 132.9%;
+letter-spacing: 0.05em;
+color: #07484A;
+border-bottom: 2px solid #07484A;
+}
+.main_menu .menu ul li:hover a {
+    
+font-weight: 700;
+font-size: 20px;
+line-height: 132.9%;
+letter-spacing: 0.05em;
+color: #07484A;
+border-bottom: 2px solid #07484A;
+transition: all linear 0.3s;
+}
+
+
+.main_menu .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 58px;
+}
+.main_menu .buttons button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+/* =====================
+        nav end
+===================== */
+/* =====================
+    section start
+/* ===================== */
+#benefits {
+    margin-bottom: 100px;
+}
+.overflow {
+    width: 100%;
+    background-color: rgba(173, 216, 230, 0.4);
+
+}
+.container {
+}
+.content_h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+.content_h1 h1{
+   height: 85px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 64px;
+   line-height: 85px;
+   color: #07484A;
+}
+
+.benefits_item_grid {
+    max-width: 1347px;
+    margin: 0 auto;
+    margin-top: 104px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 232px;
+    align-items: center;
+    justify-content: center;
+}
+.benefits_item_grid .benefits_item{
+    max-width: 288px;
+    height: 306px;
+}
+.benefits_item_grid .benefits_item .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefits_item_grid .benefits_item .images .images{}
+
+.benefits_item_grid .benefits_item{}
+.benefits_item_grid .benefits_item .text{}
+.benefits_item_grid .benefits_item .text h3{
+    color: #07484A;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin: 32px 0;
+}
+.benefits_item_grid .benefits_item .text p{
+    color: #07484A;
+    width: 288px;
+    height: 66px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+}
+/* =====================
+    section end
+/* ===================== */
+/* =====================
+     footer start
+/* ===================== */
+/* .footer_info {
+    display: flex;
+}
+.footer_info .footer_item{
+    max-width: 405px;
+    border: 1px solid black;
+    flex-shrink: 0;
+
+}
+.footer_info .footer_item .logo{
+
+} 
+.footer_info .footer_item .logo img{} 
+
+.footer_info .footer_item .icons{
+    margin: 21px 0;
+}
+.footer_info .footer_item .icons ul{
+}
+.footer_info .footer_item .icons ul li {
+    display: flex;
+    align-items: center;
+    gap: 36px;}
+
+.footer_info .footer_item .text{}
+.footer_info .footer_item .text h4{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: inter;
+    color: #07484A;
+}
+.footer_info .footer_item .text_ul ul{
+
+}
+.footer_info .footer_item .text_ul ul li a{
+    color: #07484A;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 4px 0;
+    font-family: inter;
+} */
+
+/* বেসিক রিসেট */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* এটি width এবং height এর মধ্যে padding/border অন্তর্ভুক্ত করে, যা হিসাব সহজ করে */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
