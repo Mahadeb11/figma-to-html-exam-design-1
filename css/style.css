@@ -28,6 +28,10 @@ ul,ol,li {
 a {
     text-decoration: none;
     display: inline-block;
+        color: #07484A;
+    font-size: 18px;
+    font-family: none;
+    font-family: none;
 }
 span {
     display: inline-block;
@@ -40,7 +44,13 @@ body {
     );
     background-size: 150px 100vh;
 }
-
+h4{
+     color: #07484A;
+    font-size: 18px;
+    line-height: auto;
+    font-weight: bold;
+    font-family: inter;
+}
 /* =====================
    common css end
 ===================== */
@@ -190,58 +200,36 @@ transition: all linear 0.3s;
 /* =====================
      footer start
 /* ===================== */
-/* .footer_info {
+.footer {}
+.footer_content {
     display: flex;
+    justify-content: space-between;
+    gap: 100px;
 }
-.footer_info .footer_item{
-    max-width: 405px;
-    border: 1px solid black;
-    flex-shrink: 0;
+.footer_item {
+    margin-left: 7px;
+}
+.footer_item .logo{}
+.footer_item .logo img{}
 
+.footer_item .icons{
+    padding: 21px 0;
 }
-.footer_info .footer_item .logo{
-
-} 
-.footer_info .footer_item .logo img{} 
-
-.footer_info .footer_item .icons{
-    margin: 21px 0;
-}
-.footer_info .footer_item .icons ul{
-}
-.footer_info .footer_item .icons ul li {
+.footer_item .icons ul{
     display: flex;
     align-items: center;
-    gap: 36px;}
-
-.footer_info .footer_item .text{}
-.footer_info .footer_item .text h4{
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 700;
-    font-family: inter;
-    color: #07484A;
+    gap: 36px;
 }
-.footer_info .footer_item .text_ul ul{
-
-}
-.footer_info .footer_item .text_ul ul li a{
+ .footer_content_side {
+    margin-top: 70px;
+    margin-bottom: 32px;
+ }
+ .footer_content_side p{
     color: #07484A;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    font-family: none;
     font-weight: 400;
-    padding: 4px 0;
-    font-family: inter;
-} */
-
-/* বেসিক রিসেট */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* এটি width এবং height এর মধ্যে padding/border অন্তর্ভুক্ত করে, যা হিসাব সহজ করে */
 }
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
+/* =====================
+        footer end
+/* ===================== */
